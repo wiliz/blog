@@ -10,6 +10,7 @@
           <span><i class="icon-comments-alt"></i>
           <?php comments_number( __( '0', 'jiashu' ), __( '1' ), __( '%' ) ); ?></span>
            <span><i class="icon-heart-empty"></i><?php echo get_post_meta($post->ID,"bigfa_ding",true);?></span>
+	   <span>阅读量：<?php post_views(); ?></span>
         </div>
       </div>
     </li>

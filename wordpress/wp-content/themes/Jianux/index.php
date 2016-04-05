@@ -6,22 +6,23 @@ if (function_exists('get_header')) {get_header();}else{header("Location: http://
       
 <div class="recommended">
    <div class="span3 left-aside">
-    <div class="cover-img"></div>
-    <div class="bottom-block">
-      <h1>简书</h1>
-      <h3>找回节操的力量</h3>
+    <div class="-cover-img" style="position:absolute;width:100%;height:100%;z-index:-1;background:url('<?php bloginfo('template_directory'); ?>/images/ecc0f2bfd901011e13a875b430e46d51.jpg') no-repeat;background-size:cover;">
     </div>
-    <div class="img-info">
+    <div class="bottom-block">
+      <h1>我本卑微</h1>
+      <h3 style="margin-left:50px;">但却君临天下</h3>
+    </div>
+    <!-- <div class="img-info">
       <i class="icon-info"></i>
       <div class="info">
          Photo by: <a href="http://www.flickr.com/photos/scatto_felino/" target="_blank">scatto felino</a>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="span7 offset3">
     <div class="page-title">
       <ul class="recommened-nav navigation clearfix">
-        <li><a>简书 · 找回节操的力量</a></li>
+        <li><a>Nada is a big fan of mcdull and she likes pig.</a></li>
         <?php get_search_form(); ?>
       </ul>
     </div>

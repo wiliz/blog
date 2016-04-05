@@ -1,6 +1,6 @@
 <div class="container">
 <div class="article">
-<h1 class="single-title" itemprop="name"><?php the_title(); ?></h1> 
+<h2 class="single-title" itemprop="name"><?php the_title(); ?></h2> 
         <div class="article-info">
           <span>发表于 <i class="icon-book"></i><?php the_category('&nbsp;'); ?></span>
           <span><?php the_date('Y-m-d'); ?>&nbsp;<?php the_time('G:h'); ?></span>

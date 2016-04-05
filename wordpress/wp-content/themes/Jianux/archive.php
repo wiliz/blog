@@ -6,25 +6,24 @@ if (function_exists('get_header')) {get_header();}else{header("Location: http://
       
 <div class="recommended">
    <div class="span3 left-aside">
-    <div class="cover-img" style="background-image: url(http://upload.jianshu.io/daily_images/images/R94qYyxsSyYsX5xz6h7q.jpg)"></div>
-    <div class="bottom-block">
-      <h1>简书</h1>
-      <h3>找回文字的力量</h3>
-        <p>在这里更好地写作和阅读</p>
-      <a class="btn btn btn-large btn-success" href="/sign_in" id="write-button">提笔写篇文章</a>
+    <div class="-cover-img" style="position:absolute;width:100%;height:100%;z-index:-1;background:url('<?php bloginfo('template_directory'); ?>/images/ecc0f2bfd901011e13a875b430e46d51.jpg') no-repeat;background-size:cover;">
     </div>
-    <div class="img-info">
+    <div class="bottom-block">
+      <h1>我本卑微</h1>
+      <h3 style="margin-left:50px;">但却君临天下</h3>
+    </div>
+    <!-- <div class="img-info">
       <i class="icon-info"></i>
       <div class="info">
          Photo by: <a href="http://www.flickr.com/photos/scatto_felino/" target="_blank">scatto felino</a>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="span7 offset3">
     <div class="page-title">
       <ul class="recommened-nav navigation clearfix">
-        <li><a>简书 · 找回文字的力量</a></li>
-        <li class="search"><?php get_search_form(); ?></li>
+        <li><a>Nada is a big fan of mcdull and she likes pig.</a></li>
+        <?php get_search_form(); ?>
       </ul>
     </div>
  
@@ -36,8 +35,7 @@ if (function_exists('get_header')) {get_header();}else{header("Location: http://
                 endif; 
             ?>
 </ul>
-<div id="pagination"><?php next_posts_link(__('点击查看更多')); ?></div>
-</div>
-</div>
-</div>
+<div id="pagination">
+<?php next_posts_link(__('点击查看更多')); ?>
+</div></div></div></div>
 <?php get_footer(); ?>

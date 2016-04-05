@@ -16,6 +16,9 @@
   <!--[if lt IE 9]><link href="http://jianshu-prd.b0.upaiyun.com/assets/scaffolding/for_ie-79d1b60ced4f878cbdc0939de55c3be1.css" media="all" rel="stylesheet" /><![endif]-->
   <link rel="apple-touch-icon-precomposed" href="http://jianshu-prd.b0.upaiyun.com/assets/icon114-8e7ddf4d5e0e147eba0d35a809bcc235.png" />
   <?php wp_head(); ?>
+
+<!-- <script src="<?php bloginfo('template_directory'); ?>/google-code-prettify/run_prettify.js"></script> -->
+
   </head>
 <body class="output fluid zh cn win" data-js-module="recommendation" data-locale="zh-CN">
 <div class="qaq">
@@ -28,10 +31,24 @@
 		</div>
 <div class="navbar navbar-jianshu expanded">
   <div class="dropdown">
-      <a class="active logo">
+      <a class="active logo" href="<?php echo home_url(); ?>">
         <b>简</b>
 </a>
 <?php wp_nav_menu( array( 'theme_location' => 'menu-primary', 'container_class' => 'menu-primary-container', 'menu_class' => 'menus menu-primary', 'menu_id' => 'menu-primary-items', 'fallback_cb' => '' ) ); ?>
   </div>
   
+</div>
+
+
+<div style="position:fixed;right:10px;bottom:10px;width:180px;height:150px;background-color:#F1F1F1;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- adsense-demo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9632115879486437"
+     data-ad-slot="7768545903"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
