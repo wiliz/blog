@@ -38,17 +38,3 @@
   </div>
   
 </div>
-
-
-<div style="position:fixed;right:10px;bottom:10px;width:180px;height:150px;background-color:#F1F1F1;">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adsense-demo -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9632115879486437"
-     data-ad-slot="7768545903"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
